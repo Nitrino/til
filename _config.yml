@@ -1,14 +1,12 @@
 # Site settings
-title: Your awesome title
-tagline: And Tagline
+title: TODAY I LEARNED
+tagline: by Petr Stepchenko
 email: gayanvirajith@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Hi, I’m a professional UI/UX designer and web developer.
-  I love being minimal and creative.
-baseurl: "/gaya" # the subpath of your site, e.g. /blog/
-url: "http://gayan.me" # the base hostname & protocol for your site
+description: > # TODO: ADD DESCRIPTION
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://til.nitrino.io" # the base hostname & protocol for your site
 logourl: /assets/images/logo.png # Site logo
-author: "Tom Warlker"
+author: "Petr Stepchenko"
 author_thumbnail: "/assets/images/avatar.jpg" # Author avatar
 # Theme customization - please change from the defaults!
 theme:
@@ -16,12 +14,10 @@ theme:
   highlight_color: "#205081" #205081" # "#272935"
   # Social media links, leave blank to ignore
   social:
-    github: gayanvirajith
-    twitter: gayanvirajith
-    facebook: gayanvirajith
-    gplus: +gayanvirajith
-    # dribble: gayanvirajith
-    pinterest: gayanvirajith
+    github: nitrino
+    twitter: pstepchenko
+    facebook: pstepchanko
+    telegram: nitrodev
 
   # Enable share buttons on post footer
   show_share_buttons: true
