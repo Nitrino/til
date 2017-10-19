@@ -9,7 +9,8 @@ logourl: /assets/images/logo.png # Site logo
 author: "Petr Stepchenko"
 author_thumbnail: "/assets/images/avatar.jpg" # Author avatar
 # Theme customization - please change from the defaults!
-theme:
+
+variables:
   # Color for sidebar bar, links, etc
   highlight_color: "#205081" #205081" # "#272935"
   # Social media links, leave blank to ignore
@@ -55,3 +56,5 @@ exclude:
 sass:
   sass_dir: assets/css/_sass
   style: :compressed
+
+plugins: [jekyll-paginate]
