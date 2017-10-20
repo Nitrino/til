@@ -541,9 +541,15 @@ img {
   @include MQ(M) {
     padding: 2em;
   }
+  &.-post-page {
+    padding-bottom: 0;
+  }
 }
 
 /* Article title / Page title */
+h1.post-title {
+  margin-top: 0px;
+}
 .post-title a {
   color: $color-1;
   border-bottom-width: 2px;
@@ -666,8 +672,7 @@ img {
 
 .comments {
   border-top: 1px solid $gray-lighter;
-  padding: 1.5em 0 1em 0;
-  @include column(1);
+  padding: 1rem 0;
   display: block;
   position:relative;
   @include font-size(14px);

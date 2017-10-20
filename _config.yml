@@ -27,7 +27,7 @@ variables:
   show_author_info: true
 
   # Disqus comments manager - shortname
-  # disqus_shortname: gaya-webcreate
+  disqus_shortname: nitrino-io
 
   # Google Analytics/Webmaster key, leave blank to ignore
   google_analytics_key:
