@@ -23,10 +23,8 @@ layout: default
           </a>
         </h1>
 
-        {{ post.excerpt }}
-        <a href="{{ post.url | append: '/' | replace: '//', '/' | prepend: site.baseurl | prepend: site.url }}">
-          Continue reading »
-        </a>
+        {{ post.content }}
+
         <footer></footer>
       </div>
       <aside class="post-meta {{ post.categories.first }}">
