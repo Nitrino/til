@@ -24,7 +24,7 @@ variables:
   show_share_buttons: true
 
   # Show author picure, name and social links on post footer
-  show_author_info: true
+  show_author_info: false
 
   # Disqus comments manager - shortname
   disqus_shortname: nitrino-io
