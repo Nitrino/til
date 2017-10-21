@@ -4,7 +4,7 @@ tagline: by Petr Stepchenko
 email: gayanvirajith@gmail.com
 description: > # TODO: ADD DESCRIPTION
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://til.nitrino.io" # the base hostname & protocol for your site
+url: "http://nitrino.io/til/" # the base hostname & protocol for your site
 logourl: /assets/images/logo.png # Site logo
 author: "Petr Stepchenko"
 author_thumbnail: "/assets/images/avatar.jpg" # Author avatar
