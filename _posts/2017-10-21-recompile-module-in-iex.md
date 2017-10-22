@@ -1,7 +1,6 @@
 ---
 layout: post
-title:  "Recompile module in iex session"
-description: Just a sample post to show some of the typography elements supported from harmony theme.
+title:  "[#1] Recompile module in iex session"
 categories: elixir
 ---
 While working in iex session, the modified modules are not updated. We can recompile the file containing specified module with the `r` command.
