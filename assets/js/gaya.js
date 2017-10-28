@@ -1,5 +1,5 @@
 /*
- * Sidebar toggle function 
+ * Sidebar toggle function
  */
 
 (function(document) {
@@ -109,6 +109,7 @@ jQuery(document).ready(function() {
 
   jQuery(".post").fitVids();
 
+
   // Load discus comment
   function initDisqusComments(){
 
@@ -123,18 +124,14 @@ jQuery(document).ready(function() {
       alert("Please check Disqus short name configuration on your _config.yml");
     }
   }
-
-  $('.load-view').click(function(){
-    initDisqusComments();
-    $(this).fadeOut(200);
-  });
+  initDisqusComments();
 });
 
 /*
  * Scroll to top button
  */
 jQuery(document).ready(function($){
-  
+
   // browser window scroll (in pixels) after which the "back to top" link is shown
   var offset = 300,
   //browser window scroll (in pixels) after which the "back to top" link opacity is reduced
@@ -147,7 +144,7 @@ jQuery(document).ready(function($){
   //hide or show the "back to top" link
   $(window).scroll(function(){
     ( $(this).scrollTop() > offset ) ? $back_to_top.addClass('wc-is-visible') : $back_to_top.removeClass('wc-is-visible wc-fade-out');
-    if( $(this).scrollTop() > offset_opacity ) { 
+    if( $(this).scrollTop() > offset_opacity ) {
       $back_to_top.addClass('wc-fade-out');
     }
   });

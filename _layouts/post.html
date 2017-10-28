@@ -54,13 +54,10 @@ layout: default
         {% endif %}
       </div>
 
-      {% if page.comments %}
-        <div class="comments">
-            <a href="javascript:;" class="load-view">View Comments...</a>
-            <div id="disqus_thread"></div>
-            <div id="g-comments"></div>
-        </div>
-      {% endif %}
+      <div class="comments">
+          <div id="disqus_thread"></div>
+          <div id="g-comments"></div>
+      </div>
     </footer>
   </div>
   <aside class="post-meta {{ post.categories.first }}">
