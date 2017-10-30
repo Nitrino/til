@@ -17,7 +17,7 @@ variables:
   social:
     github: nitrino
     twitter: pstepchenko
-    facebook: pstepchanko
+    facebook: pstepchenko
     telegram: nitrodev
 
   # Enable share buttons on post footer
