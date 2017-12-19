@@ -42,7 +42,7 @@ create/1
 
 So this code has a critical drawback associated with the rules of the pattern matching keyword lists. To match a keyword lists, you need two conditions:
 1. Keys and values match
-2. #### **The order of the keys must match**
+2. **The order of the keys must match**
 
 The second condition causes a lot of inconvenience and it is necessary always to pay attention to it.
 
