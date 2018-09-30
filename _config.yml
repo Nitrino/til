@@ -30,7 +30,7 @@ variables:
   disqus_shortname: nitrino-io
 
   # Google Analytics/Webmaster key, leave blank to ignore
-  google_analytics_key:
+  google_analytics_key: UA-87744333-2
   google_webmaster_key:
   yandex_metrica: 46357395
 
